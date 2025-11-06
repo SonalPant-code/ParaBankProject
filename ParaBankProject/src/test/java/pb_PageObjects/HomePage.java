@@ -1,0 +1,29 @@
+package pb_PageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class HomePage {
+
+	protected WebDriver driver;
+
+	public HomePage(WebDriver driver) {
+		this.driver = driver;
+		String actualTitle = driver.getTitle().trim().replaceAll("\\s+", " ");
+		String expectedTitle = "ParaBank | Register for Free Online Account Access";
+
+		if(!actualTitle.equals(expectedTitle))
+		{
+			System.out.println("Title mismatch!");
+			throw new IllegalStateException("This is not Home Page," + " current page is: " +driver.getTitle());
+		}
+	}
+
+	public RegistrationPage navigateToRegistrationPage() {
+		// Code to navigate to the registration page
+		driver.findElement(By.linkText("Register")).click();
+		return new RegistrationPage(driver);
+	}
+	
+	
+}
