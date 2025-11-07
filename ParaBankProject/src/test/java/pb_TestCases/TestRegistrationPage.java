@@ -6,7 +6,9 @@ import org.testng.annotations.Test;
 import pb_BaseLibrary.BaseClass_pb;
 import pb_PageObjects.HomePage;
 import pb_PageObjects.RegistrationPage;
-
+/*
+ * This test class verifies navigation to the Registration Page.
+ */
 @Test
 public class TestRegistrationPage extends BaseClass_pb {
 	

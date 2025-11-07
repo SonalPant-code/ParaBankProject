@@ -10,6 +10,9 @@ import pb_PageObjects.HomePage;
 import pb_PageObjects.RegisterNewUser;
 import pb_Utils.RandomDataUtils;
 
+/*
+ * This test class verifies the registration of a new user.
+ */
 @Test
 public class TestRegisterNewUser extends BaseClass_pb {
 

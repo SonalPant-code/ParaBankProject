@@ -5,6 +5,9 @@ import java.util.HashMap;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+/* 
+ * This class handles the registration of a new user on the ParaBank application.
+ */
 public class RegisterNewUser {
 
 	protected WebDriver driver;

@@ -2,6 +2,9 @@ package pb_PageObjects;
 
 import org.openqa.selenium.WebDriver;
 
+/*
+ * This class represents the Registration Page of the ParaBank application.
+ */
 public class RegistrationPage {
 	
 	protected WebDriver driver;

@@ -3,6 +3,9 @@ package pb_PageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+/*
+ * This class represents the Home Page of the ParaBank application.
+ */
 public class HomePage {
 
 	protected WebDriver driver;

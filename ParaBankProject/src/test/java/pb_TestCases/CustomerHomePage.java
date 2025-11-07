@@ -7,6 +7,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/*
+ * This class represents the Customer Home Page after successful registration.
+ */
 public class CustomerHomePage {
 	
 	protected WebDriver driver;
